@@ -1,0 +1,754 @@
+@prefix :         <http://example.com/> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
+@prefix vcard:    <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:     < http://viaf.org/viaf/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+wikidata:Q1130395  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:8354411;
+        schema:datePublished      "1985"^^<xsd:gYear>;
+        schema:director           viaf:24864176;
+        schema:duration           "PT2H22M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q369747;
+        schema:productionCompany  wikidata:Q141336 , wikidata:Q2621941 .
+
+wikidata:Q77978638  rdf:type  schema:Organization .
+
+geonames:2510769  rdf:type  schema:Country .
+
+wikidata:Q322572  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:2661886 , geonames:2921044 , geonames:2635167;
+        schema:datePublished      "1978"^^<xsd:gYear>;
+        schema:director           viaf:110097018;
+        schema:duration           "PT1H39M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q121298794 , wikidata:Q3149951 , viaf:156290995 .
+
+viaf:14772018  rdf:type  schema:Person .
+
+wikidata:Q2527730  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:8354411 , geonames:3562981;
+        schema:datePublished      "1964"^^<xsd:gYear>;
+        schema:director           viaf:7546853;
+        schema:duration           "PT2H21M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q141336 , wikidata:Q383342 .
+
+wikidata:Q121126018  rdf:type  schema:Organization .
+
+wikidata:Q11630725  rdf:type  schema:Organization .
+
+viaf:159819682  rdf:type  schema:Organization .
+
+wikidata:Q2633405  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1954"^^<xsd:gYear>;
+        schema:director           viaf:19686447;
+        schema:duration           "PT2H4M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q4390090 .
+
+viaf:296302696  rdf:type  schema:Organization .
+
+wikidata:Q747936  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1957"^^<xsd:gYear>;
+        schema:director           viaf:14772018;
+        schema:duration           "PT1H28M"^^<xsd:duration>;
+        schema:genre              wikidata:Q369747 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q4980924 , wikidata:Q219400 , wikidata:Q121223163 .
+
+wikidata:Q219400  rdf:type  schema:Organization .
+
+wikidata:Q2484376  rdf:type  schema:DefinedTerm .
+
+viaf:111348229  rdf:type  schema:Person .
+
+wikidata:Q8194176  rdf:type  schema:Organization .
+
+geonames:3469034  rdf:type  schema:Country .
+
+viaf:12501175  rdf:type  schema:Person .
+
+wikidata:Q1535748  rdf:type  schema:Organization .
+
+viaf:285144647665960756157
+        rdf:type  schema:Organization .
+
+wikidata:Q565231  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1861060 , geonames:3017382;
+        schema:datePublished      "1985"^^<xsd:gYear>;
+        schema:director           viaf:66476464;
+        schema:duration           "PT2H40M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q17013749 , wikidata:Q188473;
+        schema:productionCompany  wikidata:Q121299458 , wikidata:Q798642 , wikidata:Q11630725 , wikidata:Q121126018 .
+
+:ArturoGonzálezPC
+        rdf:type  schema:Organization .
+
+wikidata:Q121126436  rdf:type  schema:Organization .
+
+wikidata:Q13417189  rdf:type      schema:Movie;
+        schema:countryOfOrigin    geonames:2635167 , geonames:6252001;
+        schema:datePublished      "2014"^^<xsd:gYear>;
+        schema:director           viaf:102310843;
+        schema:duration           "PT2H49M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q319221 , wikidata:Q471839;
+        schema:productionCompany  viaf:285144647665960756157 , wikidata:Q984047 , wikidata:Q621364 .
+
+wikidata:Q622848  rdf:type  schema:Organization .
+
+viaf:85117053  rdf:type  schema:Person .
+
+:BrighterSummerProductions
+        rdf:type  schema:Organization .
+
+wikidata:Q61448040  rdf:type      schema:Movie;
+        schema:countryOfOrigin    geonames:1835841;
+        schema:datePublished      "2019"^^<xsd:gYear>;
+        schema:director           viaf:7762151778235618130000;
+        schema:duration           "PT2H12M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q157443 , wikidata:Q2484376;
+        schema:productionCompany  wikidata:Q86110392 .
+
+wikidata:Q172241  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1994"^^<xsd:gYear>;
+        schema:director           viaf:8446947;
+        schema:duration           "PT2H22M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q959790;
+        schema:productionCompany  wikidata:Q622848 .
+
+wikidata:Q220741  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:2921044 , geonames:3469034 , geonames:3017382;
+        schema:datePublished      "2002"^^<xsd:gYear>;
+        schema:director           viaf:61778500;
+        schema:duration           "PT2H10M"^^<xsd:duration>;
+        schema:genre              wikidata:Q959790 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q10390508 , wikidata:Q10338629 , wikidata:Q5571070 , viaf:138700423 , wikidata:Q6703227 , wikidata:Q3568109 .
+
+wikidata:Q11500083  rdf:type  schema:Organization .
+
+wikidata:Q172980  rdf:type  schema:DefinedTerm .
+
+wikidata:Q65092164  rdf:type  schema:Organization .
+
+wikidata:Q270510  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1960"^^<xsd:gYear>;
+        schema:director           viaf:112274535;
+        schema:duration           "PT2H5M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q1054574 , wikidata:Q157443;
+        schema:productionCompany  wikidata:Q219400 , wikidata:Q456294 .
+
+wikidata:Q152105  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1952"^^<xsd:gYear>;
+        schema:director           viaf:66476464;
+        schema:duration           "PT2H23M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q875920 .
+
+wikidata:Q86110392  rdf:type  schema:Organization .
+
+wikidata:Q1372258  rdf:type  schema:Organization .
+
+wikidata:Q104145986  rdf:type  schema:Organization .
+
+viaf:306258775  rdf:type  schema:Organization .
+
+viaf:145824651  rdf:type  schema:Organization .
+
+viaf:25955067  rdf:type  schema:Person .
+
+wikidata:Q79202  rdf:type  schema:Organization .
+
+wikidata:Q8016302  rdf:type  schema:Organization .
+
+wikidata:Q2450848  rdf:type  schema:Organization .
+
+wikidata:Q2924461  rdf:type  schema:Organization .
+
+wikidata:Q465449  rdf:type  schema:Organization .
+
+wikidata:Q457893  rdf:type  schema:Organization .
+
+geonames:2186224  rdf:type  schema:Country .
+
+geonames:3175395  rdf:type  schema:Country .
+
+wikidata:Q6703227  rdf:type  schema:Organization .
+
+viaf:7546853  rdf:type  schema:Person .
+
+viaf:111716145  rdf:type  schema:Person .
+
+wikidata:Q1207936  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1964"^^<xsd:gYear>;
+        schema:director           viaf:25955067;
+        schema:duration           "PT2H27M"^^<xsd:duration>;
+        schema:genre              wikidata:Q2484376 , wikidata:Q130232;
+        schema:productionCompany  viaf:296302696 .
+
+:TreForum  rdf:type  schema:Organization .
+
+wikidata:Q184768  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1974"^^<xsd:gYear>;
+        schema:director           viaf:112744406;
+        schema:duration           "PT3H22M"^^<xsd:duration>;
+        schema:genre              wikidata:Q959790 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q121126436 , wikidata:Q159846 .
+
+wikidata:Q17335645  rdf:type  schema:Organization .
+
+geonames:1835841  rdf:type  schema:Country .
+
+wikidata:Q122741  rdf:type  schema:Organization .
+
+geonames:1861060  rdf:type  schema:Country .
+
+geonames:2921044  rdf:type  schema:Country .
+
+wikidata:Q834328  rdf:type  schema:Organization .
+
+viaf:14767184  rdf:type  schema:Person .
+
+geonames:2635167  rdf:type  schema:Country .
+
+viaf:107681500  rdf:type  schema:Person .
+
+wikidata:Q467348  rdf:type  schema:Organization .
+
+wikidata:Q4659647  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1961"^^<xsd:gYear>;
+        schema:director           viaf:12501175;
+        schema:duration           "PT3H10M"^^<xsd:duration>;
+        schema:genre              wikidata:Q369747 , wikidata:Q130232 , wikidata:Q17013749;
+        schema:productionCompany  wikidata:Q11500083 .
+
+wikidata:Q10453214  rdf:type  schema:Organization .
+
+wikidata:Q2864822  rdf:type  schema:Organization .
+
+wikidata:Q155653  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "2001"^^<xsd:gYear>;
+        schema:director           viaf:85117053;
+        schema:duration           "PT2H4M"^^<xsd:duration>;
+        schema:genre              wikidata:Q202866 , wikidata:Q157394 , wikidata:Q1361932;
+        schema:productionCompany  wikidata:Q183275 , wikidata:Q1189945 , wikidata:Q3992245 , wikidata:Q182950 , viaf:150810954 , wikidata:Q1372258 .
+
+wikidata:Q798642  rdf:type  schema:Organization .
+
+wikidata:Q913462  rdf:type  schema:Organization .
+
+wikidata:Q4980924  rdf:type  schema:Organization .
+
+wikidata:Q159846  rdf:type  schema:Organization .
+
+wikidata:Q2663746  rdf:type  schema:Organization .
+
+wikidata:Q131074  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001 , geonames:2186224;
+        schema:datePublished      "2003"^^<xsd:gYear>;
+        schema:director           viaf:84213729;
+        schema:duration           "PT3H21M"^^<xsd:duration>;
+        schema:genre              wikidata:Q157394 , wikidata:Q319221 , wikidata:Q188473;
+        schema:productionCompany  wikidata:Q3569323 , wikidata:Q17335645 , wikidata:Q79202 .
+
+viaf:66476464  rdf:type  schema:Person .
+
+viaf:138700423  rdf:type  schema:Organization .
+
+viaf:110097018  rdf:type  schema:Person .
+
+wikidata:Q165651  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:3017382 , geonames:2661886 , geonames:2921044;
+        schema:datePublished      "1982"^^<xsd:gYear>;
+        schema:director           viaf:110097018;
+        schema:duration           "PT3H8M"^^<xsd:duration>;
+        schema:genre              wikidata:Q157394 , wikidata:Q1200678 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q66814370 , wikidata:Q913462 , wikidata:Q121298794 , wikidata:Q215363 , wikidata:Q10453214 , wikidata:Q1146587 .
+
+viaf:7504169829192837320005
+        rdf:type  schema:Organization .
+
+:Yang&HisGangFilmmakers
+        rdf:type  schema:Organization .
+
+wikidata:Q464032  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:3017382 , geonames:3175395;
+        schema:datePublished      "1988"^^<xsd:gYear>;
+        schema:director           viaf:79075956;
+        schema:duration           "PT2H54M"^^<xsd:duration>;
+        schema:genre              wikidata:Q1054574 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q3232637 , :TreForum , wikidata:Q19616 , wikidata:Q80455720 .
+
+wikidata:Q875920  rdf:type  schema:Organization .
+
+wikidata:Q164963  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001 , geonames:2186224;
+        schema:datePublished      "2002"^^<xsd:gYear>;
+        schema:director           viaf:84213729;
+        schema:duration           "PT2H59M"^^<xsd:duration>;
+        schema:genre              wikidata:Q188473 , wikidata:Q319221 , wikidata:Q157394;
+        schema:productionCompany  wikidata:Q17335645 , wikidata:Q79202 , wikidata:Q3569323 .
+
+wikidata:Q21027542  rdf:type  schema:Organization .
+
+viaf:250739607  rdf:type  schema:Organization .
+
+wikidata:Q1113049  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:3017382;
+        schema:datePublished      "1960"^^<xsd:gYear>;
+        schema:director           viaf:5022017;
+        schema:duration           "PT2H11M"^^<xsd:duration>;
+        schema:genre              wikidata:Q2484376 , wikidata:Q130232 , wikidata:Q959790;
+        schema:productionCompany  viaf:152782426 , viaf:306258775 .
+
+wikidata:Q136493871  rdf:type  schema:Organization .
+
+viaf:24864176  rdf:type  schema:Person .
+
+viaf:112355762  rdf:type  schema:Person .
+
+viaf:19686447  rdf:type  schema:Person .
+
+geonames:2589581  rdf:type  schema:Country .
+
+wikidata:Q121298794  rdf:type  schema:Organization .
+
+wikidata:Q784812  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:2589581 , geonames:3175395;
+        schema:datePublished      "1966"^^<xsd:gYear>;
+        schema:director           viaf:12496893;
+        schema:duration           "PT2H1M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q17013749 , wikidata:Q369747;
+        schema:productionCompany  viaf:124401764 , wikidata:Q136493871 .
+
+geonames:8354411  rdf:type  schema:Country .
+
+viaf:250213789  rdf:type  schema:Organization .
+
+wikidata:Q157394  rdf:type  schema:DefinedTerm .
+
+viaf:157470641  rdf:type  schema:Organization .
+
+wikidata:Q760053  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:8354411;
+        schema:datePublished      "1977"^^<xsd:gYear>;
+        schema:director           viaf:38018489;
+        schema:duration           "PT1H50M"^^<xsd:duration>;
+        schema:genre              wikidata:Q369747 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q141336 .
+
+wikidata:Q1066018  rdf:type  schema:Organization .
+
+wikidata:Q66814370  rdf:type  schema:Organization .
+
+wikidata:Q80455720  rdf:type  schema:Organization .
+
+wikidata:Q193570  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1950"^^<xsd:gYear>;
+        schema:director           viaf:112274535;
+        schema:duration           "PT1H50M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q159846 .
+
+wikidata:Q2864832  rdf:type  schema:Organization .
+
+viaf:38018489  rdf:type  schema:Person .
+
+geonames:3562981  rdf:type  schema:Country .
+
+wikidata:Q41483  rdf:type         schema:Movie;
+        schema:countryOfOrigin    geonames:3175395 , geonames:2921044 , geonames:2510769 , geonames:6252001;
+        schema:datePublished      "1966"^^<xsd:gYear>;
+        schema:director           viaf:73864000;
+        schema:duration           "PT2H58M"^^<xsd:duration>;
+        schema:genre              wikidata:Q172980;
+        schema:productionCompany  :ArturoGonzálezPC , wikidata:Q219400 , wikidata:Q2376192 , wikidata:Q564960 .
+
+wikidata:Q1148711  rdf:type  schema:Organization .
+
+wikidata:Q1054574  rdf:type  schema:DefinedTerm .
+
+wikidata:Q121035895  rdf:type  schema:Organization .
+
+wikidata:Q564960  rdf:type  schema:Organization .
+
+geonames:2661886  rdf:type  schema:Country .
+
+wikidata:Q244878  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1963"^^<xsd:gYear>;
+        schema:director           viaf:66476464;
+        schema:duration           "PT2H23M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q959790;
+        schema:productionCompany  wikidata:Q121299458 , wikidata:Q875920 .
+
+viaf:111553324  rdf:type  schema:Person .
+
+viaf:7762151778235618130000
+        rdf:type  schema:Person .
+
+wikidata:Q11532181  rdf:type  schema:Organization .
+
+wikidata:Q202866  rdf:type  schema:DefinedTerm .
+
+wikidata:Q959790  rdf:type  schema:DefinedTerm .
+
+viaf:90731600  rdf:type  schema:Person .
+
+viaf:61778500  rdf:type  schema:Person .
+
+viaf:5022017  rdf:type  schema:Person .
+
+viaf:34515002  rdf:type  schema:Person .
+
+wikidata:Q1212650  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:6251999 , geonames:3017382;
+        schema:datePublished      "2010"^^<xsd:gYear>;
+        schema:director           viaf:630149296304480670006;
+        schema:duration           "PT2H11M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q369747 , wikidata:Q1200678;
+        schema:productionCompany  wikidata:Q65092164 , wikidata:Q21027542 , viaf:250213789 .
+
+wikidata:Q10338629  rdf:type  schema:Organization .
+
+wikidata:Q15648198  rdf:type      schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "2014"^^<xsd:gYear>;
+        schema:director           viaf:220879651;
+        schema:duration           "PT1H46M"^^<xsd:duration>;
+        schema:genre              wikidata:Q842256 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q20714622 , viaf:145824651 , wikidata:Q16984664 .
+
+wikidata:Q3569323  rdf:type  schema:Organization .
+
+viaf:32206370  rdf:type  schema:Person .
+
+viaf:134011849  rdf:type  schema:Organization .
+
+wikidata:Q2345  rdf:type          schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1957"^^<xsd:gYear>;
+        schema:director           viaf:112355762;
+        schema:duration           "PT1H36M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  viaf:250739607 .
+
+wikidata:Q121299458  rdf:type  schema:Organization .
+
+geonames:1668284  rdf:type  schema:Country .
+
+viaf:150810954  rdf:type  schema:Organization .
+
+wikidata:Q3568109  rdf:type  schema:Organization .
+
+wikidata:Q16984664  rdf:type  schema:Organization .
+
+wikidata:Q319221  rdf:type  schema:DefinedTerm .
+
+wikidata:Q483941  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1993"^^<xsd:gYear>;
+        schema:director           viaf:111553324;
+        schema:duration           "PT3H15M"^^<xsd:duration>;
+        schema:genre              wikidata:Q369747 , wikidata:Q130232 , wikidata:Q17013749;
+        schema:productionCompany  wikidata:Q457893 .
+
+wikidata:Q735670  rdf:type  schema:Organization .
+
+viaf:112744406  rdf:type  schema:Person .
+
+wikidata:Q456294  rdf:type  schema:Organization .
+
+viaf:112274535  rdf:type  schema:Person .
+
+wikidata:Q141336  rdf:type  schema:Organization .
+
+wikidata:Q244315  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "2007"^^<xsd:gYear>;
+        schema:director           viaf:90731600;
+        schema:duration           "PT2H38M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q465449 , viaf:157381017 , wikidata:Q1148711 , :JoAnneSellarProductions .
+
+geonames:6252001  rdf:type  schema:Country .
+
+wikidata:Q714524  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:8354411;
+        schema:datePublished      "1957"^^<xsd:gYear>;
+        schema:director           viaf:7546853;
+        schema:duration           "PT1H35M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q369747 , wikidata:Q1054574;
+        schema:productionCompany  wikidata:Q141336 .
+
+wikidata:Q42047  rdf:type         schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1990"^^<xsd:gYear>;
+        schema:director           viaf:111716145;
+        schema:duration           "PT2H25M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q959790;
+        schema:productionCompany  viaf:7504169829192837320005 , wikidata:Q8016302 .
+
+viaf:51697917  rdf:type  schema:Person .
+
+viaf:73864000  rdf:type  schema:Person .
+
+wikidata:Q3149951  rdf:type  schema:Organization .
+
+wikidata:Q710745  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1668284;
+        schema:datePublished      "1991"^^<xsd:gYear>;
+        schema:director           viaf:32206370;
+        schema:duration           "PT3H57M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q959790 , wikidata:Q1054574;
+        schema:productionCompany  :BrighterSummerProductions , :Yang&HisGangFilmmakers .
+
+wikidata:Q163872  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001 , geonames:2635167;
+        schema:datePublished      "2008"^^<xsd:gYear>;
+        schema:director           viaf:102310843;
+        schema:duration           "PT2H32M"^^<xsd:duration>;
+        schema:genre              wikidata:Q188473 , wikidata:Q130232 , wikidata:Q959790 , wikidata:Q2484376;
+        schema:productionCompany  wikidata:Q621364 , wikidata:Q8016302 , wikidata:Q2924461 , wikidata:Q984047 .
+
+viaf:19425673  rdf:type  schema:Person .
+
+wikidata:Q2621941  rdf:type  schema:Organization .
+
+viaf:630149296304480670006
+        rdf:type  schema:Person .
+
+wikidata:Q63246568  rdf:type      schema:Movie;
+        schema:countryOfOrigin    geonames:3017382;
+        schema:datePublished      "2019"^^<xsd:gYear>;
+        schema:director           viaf:96828192;
+        schema:duration           "PT2H2M"^^<xsd:duration>;
+        schema:genre              wikidata:Q1054574 , wikidata:Q17013749 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q104145986 , wikidata:Q2864822 , viaf:159819682 .
+
+wikidata:Q11292449  rdf:type  schema:Organization .
+
+wikidata:Q503046  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:8354411;
+        schema:datePublished      "1966"^^<xsd:gYear>;
+        schema:director           viaf:34515002;
+        schema:duration           "PT3H9M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q17013749;
+        schema:productionCompany  wikidata:Q141336 .
+
+wikidata:Q215363  rdf:type  schema:Organization .
+
+wikidata:Q1361932  rdf:type  schema:DefinedTerm .
+
+wikidata:Q274520  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1988"^^<xsd:gYear>;
+        schema:director           viaf:111348229;
+        schema:duration           "PT1H28M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q369747 , wikidata:Q202866;
+        schema:productionCompany  wikidata:Q182950 .
+
+wikidata:Q189540  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1954"^^<xsd:gYear>;
+        schema:director           viaf:66476464;
+        schema:duration           "PT3H27M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q188473;
+        schema:productionCompany  wikidata:Q875920 .
+
+viaf:117138153  rdf:type  schema:Person .
+
+wikidata:Q19616  rdf:type  schema:Organization .
+
+wikidata:Q3232637  rdf:type  schema:Organization .
+
+wikidata:Q1189945  rdf:type  schema:Organization .
+
+wikidata:Q3193759  rdf:type  schema:Organization .
+
+wikidata:Q621364  rdf:type  schema:Organization .
+
+:Sociétégénéraledesfilms
+        rdf:type  schema:Organization .
+
+wikidata:Q369747  rdf:type  schema:DefinedTerm .
+
+:JoAnneSellarProductions
+        rdf:type  schema:Organization .
+
+wikidata:Q1151814  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1997"^^<xsd:gYear>;
+        schema:director           viaf:19425673 , viaf:107681500;
+        schema:duration           "PT1H27M"^^<xsd:duration>;
+        schema:genre              wikidata:Q157394 , wikidata:Q471839 , wikidata:Q202866 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q735670 , viaf:157470641 , wikidata:Q734663 , wikidata:Q8194176 , wikidata:Q1054765 , wikidata:Q834328 , wikidata:Q122741 , wikidata:Q1066018 .
+
+wikidata:Q3992245  rdf:type  schema:Organization .
+
+wikidata:Q51520  rdf:type         schema:Movie;
+        schema:countryOfOrigin    geonames:3017382;
+        schema:datePublished      "1928"^^<xsd:gYear>;
+        schema:director           viaf:51697917;
+        schema:duration           "PT1H54M"^^<xsd:duration>;
+        schema:genre              wikidata:Q17013749 , wikidata:Q130232;
+        schema:productionCompany  :Sociétégénéraledesfilms .
+
+geonames:6251999  rdf:type  schema:Country .
+
+wikidata:Q121223163  rdf:type  schema:Organization .
+
+wikidata:Q5571070  rdf:type  schema:Organization .
+
+wikidata:Q984047  rdf:type  schema:Organization .
+
+wikidata:Q4390090  rdf:type  schema:Organization .
+
+viaf:8446947  rdf:type  schema:Person .
+
+wikidata:Q842256  rdf:type  schema:DefinedTerm .
+
+wikidata:Q183275  rdf:type  schema:Organization .
+
+wikidata:Q188473  rdf:type  schema:DefinedTerm .
+
+viaf:124401764  rdf:type  schema:Organization .
+
+viaf:156290995  rdf:type  schema:Organization .
+
+wikidata:Q182950  rdf:type  schema:Organization .
+
+wikidata:Q10390508  rdf:type  schema:Organization .
+
+wikidata:Q383342  rdf:type  schema:Organization .
+
+wikidata:Q471839  rdf:type  schema:DefinedTerm .
+
+wikidata:Q110818465  rdf:type     schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1959"^^<xsd:gYear>;
+        schema:director           viaf:12501175;
+        schema:duration           "PT3H28M"^^<xsd:duration>;
+        schema:genre              wikidata:Q17013749 , wikidata:Q130232 , wikidata:Q369747;
+        schema:productionCompany  wikidata:Q11500083 .
+
+viaf:96828192  rdf:type  schema:Person .
+
+viaf:12496893  rdf:type  schema:Person .
+
+wikidata:Q20714622  rdf:type  schema:Organization .
+
+wikidata:Q17013749  rdf:type  schema:DefinedTerm .
+
+wikidata:Q2376192  rdf:type  schema:Organization .
+
+:NemuruOtokoSeisakulinkai
+        rdf:type  schema:Organization .
+
+wikidata:Q204191  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1946"^^<xsd:gYear>;
+        schema:director           viaf:14767184;
+        schema:duration           "PT2H10M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q157394 , wikidata:Q1361932;
+        schema:productionCompany  wikidata:Q1535748 .
+
+wikidata:Q157443  rdf:type  schema:DefinedTerm .
+
+viaf:102310843  rdf:type  schema:Person .
+
+geonames:3017382  rdf:type  schema:Country .
+
+wikidata:Q466101  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:3017382;
+        schema:datePublished      "1995"^^<xsd:gYear>;
+        schema:director           viaf:117138153;
+        schema:duration           "PT1H38M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q3193759 , wikidata:Q77978638 , wikidata:Q2864832 , wikidata:Q2450848 , wikidata:Q2663746 .
+
+wikidata:Q115536959  rdf:type     schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1959"^^<xsd:gYear>;
+        schema:director           viaf:12501175;
+        schema:duration           "PT3H1M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q369747 , wikidata:Q17013749;
+        schema:productionCompany  wikidata:Q11500083 .
+
+wikidata:Q1054765  rdf:type  schema:Organization .
+
+wikidata:Q1200678  rdf:type  schema:DefinedTerm .
+
+wikidata:Q182692  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1979"^^<xsd:gYear>;
+        schema:director           viaf:112744406;
+        schema:duration           "PT2H27M"^^<xsd:duration>;
+        schema:genre              wikidata:Q369747 , wikidata:Q130232;
+        schema:productionCompany  wikidata:Q467348 .
+
+viaf:33209  rdf:type  schema:Person .
+
+wikidata:Q1146587  rdf:type  schema:Organization .
+
+wikidata:Q734663  rdf:type  schema:Organization .
+
+wikidata:Q1584406  rdf:type       schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1962"^^<xsd:gYear>;
+        schema:director           viaf:12501175;
+        schema:duration           "PT2H13M"^^<xsd:duration>;
+        schema:genre              wikidata:Q188473 , wikidata:Q130232 , wikidata:Q17013749;
+        schema:productionCompany  wikidata:Q11532181 .
+
+wikidata:Q26060  rdf:type         schema:Movie;
+        schema:countryOfOrigin    geonames:1861060;
+        schema:datePublished      "1953"^^<xsd:gYear>;
+        schema:director           viaf:33209;
+        schema:duration           "PT2H17M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  wikidata:Q11532181 .
+
+viaf:152782426  rdf:type  schema:Organization .
+
+viaf:84213729  rdf:type  schema:Person .
+
+viaf:220879651  rdf:type  schema:Person .
+
+wikidata:Q130232  rdf:type  schema:DefinedTerm .
+
+viaf:79075956  rdf:type  schema:Person .
+
+wikidata:Q704513  rdf:type        schema:Movie;
+        schema:countryOfOrigin    geonames:1668284 , geonames:1861060;
+        schema:datePublished      "2000"^^<xsd:gYear>;
+        schema:director           viaf:32206370;
+        schema:duration           "PT2H53M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232;
+        schema:productionCompany  :NemuruOtokoSeisakulinkai , wikidata:Q11292449 , wikidata:Q121035895 , viaf:134011849 .
+
+wikidata:Q17305146  rdf:type  schema:Organization .
+
+viaf:157381017  rdf:type  schema:Organization .
+
+wikidata:Q47703  rdf:type         schema:Movie;
+        schema:countryOfOrigin    geonames:6252001;
+        schema:datePublished      "1972"^^<xsd:gYear>;
+        schema:director           viaf:112744406;
+        schema:duration           "PT2H55M"^^<xsd:duration>;
+        schema:genre              wikidata:Q130232 , wikidata:Q959790;
+        schema:productionCompany  wikidata:Q17305146 , wikidata:Q159846 .
