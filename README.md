@@ -19,3 +19,9 @@ schema:duration           "PT2H22M"^^<xsd:duration>;
 schema:genre              wikidata:Q130232 , wikidata:Q369747;
 
 schema:productionCompany  wikidata:Q141336 , wikidata:Q2621941 .
+
+Harakiri   Schema: director   Kobayashi, Masaki  
+
+Parasite   Schema: countryOfOrigin   South Korea 
+
+The Good, The Bad, and The Ugly    Schema: genre     Western Film
