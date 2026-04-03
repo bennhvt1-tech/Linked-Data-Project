@@ -21,7 +21,9 @@ schema:genre              wikidata:Q130232 , wikidata:Q369747;
 schema:productionCompany  wikidata:Q141336 , wikidata:Q2621941 .
 
 
-Human Readable: Harakiri   Schema: director   Kobayashi, Masaki  
+Human Readable: 
+
+Harakiri   Schema: director   Kobayashi, Masaki  
 
 Parasite   Schema: countryOfOrigin   South Korea 
 
