@@ -23,8 +23,8 @@ schema:productionCompany  wikidata:Q141336 , wikidata:Q2621941 .
 
 Human Readable: 
 
-Harakiri   Schema: director   Kobayashi, Masaki  
+Harakiri-Schema: director-Kobayashi, Masaki  
 
-Parasite   Schema: countryOfOrigin   South Korea 
+Parasite-Schema: countryOfOrigin-South Korea 
 
-The Good, The Bad, and The Ugly    Schema: genre     Western Film
+The Good, The Bad, and The Ugly-Schema: genre-Western Film
